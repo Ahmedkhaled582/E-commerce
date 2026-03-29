@@ -17,12 +17,15 @@ export default function ProductsPage() {
   );
 
   return (
-    <div className="p-6">
-      <input
-        placeholder="Search..."
-        className="border p-2 mb-4 w-full"
+    <div className="py-6 px-30">
+      <div className="text-center">
+              <input
+        placeholder="Search by name"
+        className="border rounded-xl p-2 mb-4 sm:w-[50%]"
         onChange={(e) => setSearch(e.target.value)}
       />
+      </div>
+
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         {filtered.map((p: any) => (

@@ -9,7 +9,7 @@ export default function ProductCard({ product }: any) {
   return (
     <motion.div
       whileHover={{ y: -8 }}
-      className="group relative p-4 rounded-2xl bg-white dark:bg-zinc-900 shadow border shadow-md hover:shadow-2xl transition"
+      className="group relative p-5 rounded-2xl bg-white dark:bg-zinc-900 shadow border shadow-md hover:shadow-2xl transition"
     >
       {/* image */}
       <div className="overflow-hidden rounded-xl">
