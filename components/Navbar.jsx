@@ -37,44 +37,5 @@ export default function Navbar() {
           </div>
       </nav>
       </>
-
-
-//     <nav className="sticky px-30 top-0 z-50 bg-[#131921] text-white px-6 py-3 flex justify-between items-center">
-      
-//       <h1 className="text-2xl font-bold cursor-pointer">
-//           E-Shop
-//         </h1>
-
-//       <div className="flex gap-6 items-center">
-//         <Link href="/" className={path === "/" ? "text-indigo-500" : ""}>
-//           Home
-//         </Link>
-
-//         <Link
-//           href="/products"
-//           className={path.includes("products") ? "text-indigo-500" : ""}
-//         >
-//           Products
-//         </Link>
-
-// <Link
-// href="/about"
-// className={path.includes("about")?"text-indigo-500":""}
-// >
-// About
-// </Link>
-// <Link
-// href="/contact"
-// className={path.includes("contact")?"text-indigo-500":""}
-// >
-// Contact
-// </Link>
-// <Link href="/cart" className="font-bold">
-//             🛒 Cart ({cart.length})
-//           </Link>
-
-//         <DarkToggle />
-//       </div>
-//     </nav>
   );
 }

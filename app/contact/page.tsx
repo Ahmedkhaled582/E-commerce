@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <div className="p-6 md:p-10 grid md:grid-cols-2 gap-10">
       
-      {/* 💌 FORM */}
+      {/* FORM */}
       <div className="bg-white dark:bg-zinc-900 p-8 rounded-3xl shadow-xl">
         <h1 className="text-3xl font-bold mb-6">Contact Us</h1>
 
@@ -27,12 +27,12 @@ export default function Contact() {
           />
 
           <button className="w-full py-3 bg-gradient-to-r from-indigo-500 to-purple-500 text-white rounded-xl font-semibold hover:scale-105 transition">
-            Send Message 🚀
+            Send Message
           </button>
         </form>
       </div>
 
-      {/* 🗺️ MAP */}
+      {/* MAP */}
       <div className="rounded-3xl overflow-hidden shadow-xl">
         <iframe
           src="https://www.google.com/maps?q=Egypt&output=embed"

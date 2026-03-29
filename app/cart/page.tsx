@@ -16,7 +16,7 @@ export default function CartPage() {
   return (
     <div className="p-6 md:p-10 grid md:grid-cols-3 gap-8">
       
-      {/* 🛍️ CART ITEMS */}
+      {/* CART ITEMS */}
       <div className="md:col-span-2 space-y-4">
         {cart.map((item: any) => (
           <div
@@ -58,7 +58,7 @@ export default function CartPage() {
         ))}
       </div>
 
-      {/* 💳 SUMMARY */}
+      {/* SUMMARY */}
       <div className="p-6 rounded-2xl border shadow-md bg-white dark:bg-zinc-900 h-fit">
         <h2 className="text-xl font-bold mb-4">Order Summary</h2>
 

@@ -57,7 +57,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* 🔻 BOTTOM */}
+        {/* BOTTOM */}
         <div className="flex flex-col md:flex-row justify-between items-center py-6 text-sm text-gray-500">
           <p>© 2026 E-Shop. All rights reserved.</p>
 
