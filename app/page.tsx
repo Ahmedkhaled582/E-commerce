@@ -75,7 +75,7 @@ export default async function Home() {
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {categories.slice(0, 8).map((cat: string) => (
+            {categories.slice(0, 8).map((cat: any) => (
               <CategoryCard key={cat.slug} name={cat} />
             ))}
           </div>
