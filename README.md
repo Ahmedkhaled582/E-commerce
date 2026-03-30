@@ -196,5 +196,5 @@ npm run dev
 
 **Ahmed Khaled**
 
-* 🌐 Portfolio: https://your-portfolio-link
-* 💼 LinkedIn: https://linkedin.com/in/your-profile
+* 🌐 Portfolio: https://ahmedkhaled582.github.io/Portfolio/
+* 💼 LinkedIn: https://www.linkedin.com/in/ahmed-khaled-yahia
