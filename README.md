@@ -12,7 +12,20 @@ A high-quality, fully responsive **E-Commerce Web Application** built with **Nex
 
 ## 📸 Preview
 
-> Add screenshots here (Home, Product, Cart, Dark Mode)
+### 🏠 Home Page
+![Home](public/screenshots/home.png)
+
+### 📦 Products Page
+![Products](public/screenshots/products.png)
+
+### 📦 Product Details Page
+![Product](public/screenshots/product.png)
+
+### 🛒 Cart Page
+![Cart](public/screenshots/cart.png)
+
+### 🌙 Dark Mode
+![DarkMode](public/screenshots/DarkMode.png)
 
 ---
 
