@@ -13,7 +13,7 @@ A high-quality, fully responsive **E-Commerce Web Application** built with **Nex
 ## 📸 Preview
 
 ### 🏠 Home Page
-![Home](public/screenshots/home.png)
+![home](public/screenshots/home.png)
 
 ### 📦 Products Page
 ![Products](public/screenshots/products.png)
