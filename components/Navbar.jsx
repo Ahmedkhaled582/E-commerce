@@ -14,7 +14,7 @@ export default function Navbar() {
 
 
       {/* ── Nav strip ── */}
-      <nav className=" md:px-30 py-5 h-18 fixed z-100 bg-white w-full border-b border-[#E0DDD6]">
+      <nav className="px-6 md:px-30 py-5 h-18 fixed z-100 bg-white w-full border-b border-[#E0DDD6]">
       <div className="flex items-center justify-between">
         <Link href="/" className="text-2xl font-bold tracking-tight">E-shop</Link>
         <div className="hidden md:flex gap-8 text-sm tracking-widest uppercase font-['DM_Sans',sans-serif] text-[#555]">
