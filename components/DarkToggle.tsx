@@ -23,7 +23,7 @@ export default function DarkToggle() {
   return (
     <button
       onClick={toggleTheme}
-      className="px-3 py-1 rounded-lg border hover:scale-105 transition"
+      className="px-3 py-1 rounded-lg border hover:scale-105 transition hover:cursor-pointer"
     >
       {theme === "dark" ? "☀️" : "🌙"}
     </button>
