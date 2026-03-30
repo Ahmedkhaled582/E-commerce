@@ -101,7 +101,7 @@ export default function About() {
         </div>
       </div>
 
-      {/* 🚀 CTA */}
+      {/* CTA */}
       <div className="py-20 text-center px-6">
         
         <h2 className="text-4xl font-extrabold mb-4">
