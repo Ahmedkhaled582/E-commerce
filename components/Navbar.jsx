@@ -16,7 +16,7 @@ export default function Navbar() {
       </div>
 
       {/* ── Nav strip ── */}
-      <nav className="px-8 md:px-16 py-5 flex items-center justify-between border-b border-[#E0DDD6]">
+      <nav className=" md:px-30 py-5 flex items-center justify-between border-b border-[#E0DDD6]">
         <span className="text-2xl font-bold tracking-tight">E-shop</span>
         <div className="hidden md:flex gap-8 text-sm tracking-widest uppercase font-['DM_Sans',sans-serif] text-[#555]">
                   <Link href="/" className={path === "/" ? "text-indigo-500" : ""}>Home</Link>

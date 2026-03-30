@@ -15,3 +15,8 @@ html body {
   color: black;
 }
 
+.hero{
+  background-image: url(../public/slider-13.jpg);
+  background-position: center center;
+  background-size: cover;
+}
