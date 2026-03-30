@@ -10,7 +10,9 @@ export default function RootLayout({ children }: any) {
       <body>
         <CartProvider>
           <Navbar />
-          {children}
+          <div className="pt-18">
+         {children}
+          </div>
           <Footer/>
         </CartProvider>
       </body>

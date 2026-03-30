@@ -63,7 +63,7 @@ export default async function Home() {
 
 
           {/* ── Categories ── */}
-        <section id="categories" className="my-16 md:px-30">
+        <section id="categories" className="my-16 md:px-30 px-6">
           <div className="flex items-end justify-between mb-8">
             <div>
               <p className="text-xs tracking-[0.25em] uppercase text-[#888] font-['DM_Sans',sans-serif] mb-1">Browse</p>
@@ -82,7 +82,7 @@ export default async function Home() {
         </section>
 
         {/* ── Featured Products ── */}
-        <section id="products" className="mb-16 md:px-30">
+        <section id="products" className="mb-16 md:px-30 px-6">
           <div className="flex items-end justify-between mb-8">
             <div>
               <p className="text-xs tracking-[0.25em] uppercase text-[#888] font-['DM_Sans',sans-serif] mb-1">Handpicked</p>

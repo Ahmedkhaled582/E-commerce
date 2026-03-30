@@ -17,7 +17,7 @@ export default function ProductsPage() {
   );
 
   return (
-    <div className="py-6 px-30">
+    <div className="py-6 md:px-30">
       <div className="text-center">
               <input
         placeholder="Search by name"

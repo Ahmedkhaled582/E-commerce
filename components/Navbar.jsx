@@ -11,15 +11,14 @@ export default function Navbar() {
   return (
     <>
      {/* ── Top Banner ── */}
-      <div className="bg-[#1A1A1A] text-[#F7F5F0] text-center py-2.5 text-xs tracking-[0.2em] uppercase font-['DM_Sans',sans-serif]">
-        Free shipping on orders over $75 &nbsp;·&nbsp; New arrivals every Monday
-      </div>
+
 
       {/* ── Nav strip ── */}
-      <nav className=" md:px-30 py-5 flex items-center justify-between border-b border-[#E0DDD6]">
-        <span className="text-2xl font-bold tracking-tight">E-shop</span>
+      <nav className=" md:px-30 py-5 h-18 fixed z-100 bg-white w-full border-b border-[#E0DDD6]">
+      <div className="flex items-center justify-between">
+        <Link href="/" className="text-2xl font-bold tracking-tight">E-shop</Link>
         <div className="hidden md:flex gap-8 text-sm tracking-widest uppercase font-['DM_Sans',sans-serif] text-[#555]">
-                  <Link href="/" className={path === "/" ? "text-indigo-500" : ""}>Home</Link>
+          <Link href="/" className={path === "/" ? "text-indigo-500" : ""}>Home</Link>
           <Link href="/products" className={path.includes("products") ? "text-indigo-500" : ""}>Products</Link>
           <Link href="/about" className={path.includes("about")?"text-indigo-500":""}>About</Link>
           <Link href="/contact" className={path.includes("contact")?"text-indigo-500":""}>Contact</Link>
@@ -35,6 +34,7 @@ export default function Navbar() {
 
      <DarkToggle />
           </div>
+      </div>
       </nav>
       </>
   );
