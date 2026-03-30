@@ -1,36 +1,200 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛒 E-Commerce Platform — Next.js (Production-Level UI)
 
-## Getting Started
+A high-quality, fully responsive **E-Commerce Web Application** built with **Next.js App Router** and **Tailwind CSS**, delivering a modern, fast, and scalable shopping experience inspired by real-world platforms like Amazon.
 
-First, run the development server:
+---
+
+## 🚀 Live Demo
+
+🔗 https://e-commerce-three-gamma-43.vercel.app/
+
+---
+
+## 📸 Preview
+
+### 🏠 Home Page
+![Home](public/screenshots/Home.png)
+
+### 📦 Products Page
+![Products](public/screenshots/products.png)
+
+### 📦 Product Details Page
+![Product](public/screenshots/product.png)
+
+### 🛒 Cart Page
+![Cart](public/screenshots/cart.png)
+
+### 🌙 Dark Mode
+![DarkMode](public/screenshots/DarkMode.png)
+
+---
+
+## ✨ Highlights
+
+* ⚡ Blazing fast performance (Next.js App Router)
+* 🎨 Premium UI/UX (Amazon-inspired layout)
+* 🌙 Dark Mode with persistence
+* 🛒 Fully functional cart system
+* 📱 Fully responsive (mobile-first)
+* 🔥 Clean architecture & scalable structure
+
+---
+
+## 🧩 Features Breakdown
+
+### 🧭 Routing & Architecture
+
+* Next.js App Router
+* Nested layouts
+* Dynamic routing (`/products/[id]`, `/category/[name]`)
+* Error handling (`error.tsx`, `not-found.tsx`)
+
+---
+
+### 🛍️ Core Features
+
+* Product listing (Fake Store API)
+* Product details page
+* Category filtering system
+* Search functionality
+* Shopping cart (Add / Remove / Total)
+
+---
+
+### 🎨 UI / UX
+
+* Amazon-style homepage
+* Hero sections & layered layout
+* Gradient-based modern design
+* Smooth hover effects
+* Skeleton loading states
+* Clean spacing & typography
+
+---
+
+### 📡 Data Handling
+
+* Server-side data fetching
+* API integration (dummyjson)
+* Category-based endpoints
+
+---
+
+### ⚙️ Custom API Routes
+
+* `/api/products`
+* `/api/cart`
+
+---
+
+### 📩 Extra Sections
+
+* About page (Landing-style design)
+* Contact page (with Google Maps)
+  
+---
+
+## 🧱 Tech Stack
+
+| Technology     | Usage            |
+| -------------- | ---------------- |
+| Next.js 16+    | App Router & SSR |
+| React          | UI Components    |
+| Tailwind CSS   | Styling          |
+| Framer Motion  | Animations       |
+| Dummyjson      | Data             |
+
+---
+
+## 📁 Folder Structure
+
+```bash
+app/
+  layout.tsx
+  page.tsx
+  products/
+    page.tsx
+    [id]/page.tsx
+  category/
+    [name]/page.tsx
+  cart/
+    page.tsx
+  about/
+    page.tsx
+  contact/
+    page.tsx
+  api/
+
+components/
+  Navbar.tsx
+  AddToCartButton.tsx
+  ProductCard.tsx
+  CategoryCard.tsx
+  Footer.tsx
+
+context/
+  CartContext.tsx
+
+lib/
+  api.ts
+```
+
+---
+
+## ⚡ Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/Ahmedkhaled582/E-commerce.git
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Run locally
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🌙 Dark Mode
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* Controlled via Tailwind `dark` class
+* Stored in `localStorage`
+* Fully integrated across all components
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🧠 Key Learnings
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* Advanced Next.js App Router usage
+* Dynamic routing & server components
+* State management for cart system
+* Building scalable UI systems
+* Real-world project structuring
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🚀 Future Improvements
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* 🔐 Authentication (JWT / NextAuth)
+* 💳 Payment integration (Stripe)
+* 📦 Order management system
+* 🧾 Admin dashboard
+* 🔔 Toast notifications
+* 🌍 Multi-language support
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 👨‍💻 Author
+
+**Ahmed Khaled**
+
+* 🌐 Portfolio: https://ahmedkhaled582.github.io/Portfolio/
+* 💼 LinkedIn: https://www.linkedin.com/in/ahmed-khaled-yahia
