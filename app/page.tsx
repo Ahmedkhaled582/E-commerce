@@ -2,10 +2,21 @@ import { getCategories, getProducts } from "@/lib/api";
 import ProductCard from "@/components/ProductCard";
 import CategoryCard from "@/components/CategoryCard";
 import Link from "next/link";
+import ProductSkeleton from "@/components/ProductSkeleton";
 
 export default async function Home() {
   const {products} = await getProducts();
   const categories = await getCategories();
+
+  if (!products) {
+    return (
+      <div className="grid grid-cols-2 md:grid-cols-5 gap-4 p-6">
+        {Array.from({ length: 10 }).map((_, i) => (
+          <ProductSkeleton key={i} />
+        ))}
+      </div>
+    );
+  }
 
   return (
 <>

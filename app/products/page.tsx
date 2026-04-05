@@ -10,7 +10,7 @@ export default function ProductsPage() {
     fetch("https://dummyjson.com/products")
       .then((res) => res.json())
       .then((data) => setProducts(data.products));
-  }, []);
+  },[]);
 
   const filtered = products.filter((p: any) =>
     p.title.toLowerCase().includes(search.toLowerCase())

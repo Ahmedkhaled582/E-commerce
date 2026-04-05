@@ -9,7 +9,7 @@ export default function DarkToggle() {
 
     setTheme(saved);
     document.documentElement.classList.toggle("dark", saved === "dark");
-  }, []);
+  },[]);
 
   const toggleTheme = () => {
     const newTheme = theme === "dark" ? "light" : "dark";
