@@ -47,6 +47,7 @@ A high-quality, fully responsive **E-Commerce Web Application** built with **Nex
 * Nested layouts
 * Dynamic routing (`/products/[id]`, `/category/[name]`)
 * Error handling (`error.tsx`, `not-found.tsx`)
+* Loading / Skeleton UI
 
 ---
 
