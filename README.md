@@ -1,6 +1,6 @@
 # 🛒 E-Commerce Platform — Next.js (Production-Level UI)
 
-A high-quality, fully responsive **E-Commerce Web Application** built with **Next.js App Router** and **Tailwind CSS**, delivering a modern, fast, and scalable shopping experience inspired by real-world platforms like Amazon.
+A high-quality, fully responsive **E-Commerce Web Application** built with **Next.js App Router** and **Tailwind CSS**, delivering a modern, fast, and scalable shopping experience.
 
 ---
 
@@ -32,7 +32,6 @@ A high-quality, fully responsive **E-Commerce Web Application** built with **Nex
 ## ✨ Highlights
 
 * ⚡ Blazing fast performance (Next.js App Router)
-* 🎨 Premium UI/UX (Amazon-inspired layout)
 * 🌙 Dark Mode with persistence
 * 🛒 Fully functional cart system
 * 📱 Fully responsive (mobile-first)
@@ -63,7 +62,6 @@ A high-quality, fully responsive **E-Commerce Web Application** built with **Nex
 
 ### 🎨 UI / UX
 
-* Amazon-style homepage
 * Hero sections & layered layout
 * Gradient-based modern design
 * Smooth hover effects
